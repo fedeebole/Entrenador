@@ -1,0 +1,48 @@
+<body>
+  <main class="contenedor">
+    <header>
+      <h1>Entrenador de Triatlón</h1>
+      <nav>
+        <a href="#presentacion">Presentación</a>
+        <a href="#disciplinas">Disciplinas</a>
+      </nav>
+    </header>
+
+    <section id="presentacion">
+      <h2>Sobre mí</h2>
+      <p>
+        ¡Hola! Soy Matias Ebole, profesor de educación física especializado en
+        triatlón. Me dedico a entrenar y acompañar a deportistas en natación,
+        ciclismo y running. Con experiencia y pasión por el deporte, brindo
+        rutinas adaptadas a todos los niveles.
+      </p>
+      <img
+        src="traje_competencia.jpg"
+        alt="Foto con traje de competencia"
+        class="foto-presentacion"
+      />
+    </section>
+
+    <section id="disciplinas">
+      <h2>Disciplinas</h2>
+      <div class="botones">
+        <button onclick="mostrarDisciplina('natacion')">Natación</button>
+        <button onclick="mostrarDisciplina('ciclismo')">Bicicleta</button>
+        <button onclick="mostrarDisciplina('running')">Running</button>
+      </div>
+      <div id="contenido-disciplina"></div>
+    </section>
+
+    <footer>
+      <p>
+        Contacto:
+        <a href="https://www.instagram.com/me_entrenamiento/" target="_blank"
+          >@me_entrenamiento</a
+        >
+        | Tel: +54 9 351 123-4567
+      </p>
+    </footer>
+  </main>
+
+  <script src="script.js"></script>
+</body>
